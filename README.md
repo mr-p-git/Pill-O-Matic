@@ -18,15 +18,14 @@ An Arduino Uno coordinates the system using a DS3231 real-time clock (RTC) modul
 
 ## Technical Highlights
 
-- **Full-stack application development**: Designed and built a complete application with user-facing workflows, persistent data, and practical end-to-end functionality.
-- **User interface design**: Created an intuitive interface focused on clarity, accessibility, and ease of use for managing medication-related tasks.
-- **State and data management**: Structured application data for tracking pills, schedules, user inputs, and related records.
-- **Problem-solving with real-world constraints**: Built around a practical healthcare-adjacent use case where accuracy, reminders, and usability matter.
-- **Software architecture**: Organized the project into maintainable components with clear responsibilities.
-- **Debugging and testing**: Identified issues through hands-on testing and improved reliability through iterative fixes.
-- **Git and GitHub workflow**: Used version control to manage project history and collaborate through a standard repository workflow.
-- **Technical communication**: Presented project functionality, design decisions, and implementation details for both technical and non-technical readers.
-
+- **Embedded firmware development:** Programmed Arduino control logic for RTC-based scheduling, Hall sensor tray detection, LED status feedback, and stepper motor actuation.
+- **Electromechanical system integration:** Integrated sensing, timing, motor control, and mechanical dispensing into a coordinated automated medication system.
+- **Sensor-based safety control:** Used tray-presence detection to prevent dispensing when the tray is missing and reduce the risk of duplicate or unsafe dispensing.
+- **Real-time scheduled operation:** Implemented DS3231 RTC-based dose timing so dispensing events occur autonomously at predefined medication times.
+- **Indexed stepper motor control:** Drove a 28BYJ-48 stepper motor through a ULN2003 driver to rotate the pill wheel by fixed increments for single-dose dispensing.
+- **State-based control logic:** Structured system behavior around idle, tray-missing, dispensing, and pill-waiting states for predictable user interaction.
+- **Power-conscious actuator design:** De-energized the stepper motor when idle to reduce heat, current draw, and unnecessary standby power use.
+- **Rapid hardware prototyping:** Fabricated and tested a mixed-material prototype combining 3D-printed PLA mechanisms, embedded magnets, a plywood lid, and cardboard-mounted electronics.
 
 ## Key Features
 
@@ -36,8 +35,6 @@ An Arduino Uno coordinates the system using a DS3231 real-time clock (RTC) modul
 - State-based control logic to prevent missed or duplicate dispensing  
 - User interaction detection via tray removal (no buttons required)  
 - Energy-efficient motor control with zero idle current draw  
-
-
 
 ## System Architecture
 
