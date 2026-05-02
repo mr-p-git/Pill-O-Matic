@@ -8,10 +8,7 @@
 - [Project Summary](Pill-O-Matic_Project_Summary.md) 
 
 ## Demonstration
-[![Pill-O-Matic Demo](images_and_videos/Device_Demonstration/37.png)](https://github.com/user-attachments/assets/b62c5828-eaed-4aca-9592-9dc44bffba02)
-
-
-
+[![Pill-O-Matic Demo](images_and_videos/Device_Demonstration/37.png)](https://github.com/user-attachments/assets/4b54a555-bc47-4cf3-90d2-f38e5f574e28)
 
 ## Project Overview
 
